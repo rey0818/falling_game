@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Don't Touch The Block</title>
+        <link rel="stylesheet" href="newgame.css">
+</head>
+<body>
+    <div id="scoreDisplay">Score: 0</div>
+    <div id="levelDisplay">Level: 1</div>
+    <canvas id="canvas" width="700" height = "700"></canvas>
+    <script src = "https://code.jquery.com/jquery-2.1.0.js"></script>
+    <script src = "newgame.js"></script>
+    <audio id="audio" src="background.mp3" style="opacity:0" autoplay="autoplay" loop hidden="true"></audio>
+    <audio id="GameOver" src="Bad.mp3" style="opacity:0" loop = "true"  hidden="true"></audio>
+    <script>    document.getElementById("audio").volume = 0.6; </script>
+    <button class="button" onclick="window.location.reload()"> 按我重來
+    </button>
+</body>
+</html>

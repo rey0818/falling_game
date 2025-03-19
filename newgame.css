@@ -1,0 +1,57 @@
+.button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;   
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+    position: absolute;
+    left: 20px;
+    top:15%;
+  }
+  
+  .button:hover {background-color: #3e8e41}
+  
+  .button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+body{
+    background-image: url("background1.jpg"); 
+    background-color: blanchedalmond;
+    margin-left: 700px;
+    background-attachment: fixed;
+    background-position: 0px 8px;
+    background-repeat: no-repeat ;
+    background-size: 700px 700px;
+}
+
+#levelDisplay{
+    font-size: 24px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+#scoreDisplay{
+  font-size: 24px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  position: absolute;
+  left: 20px;
+  top: 80px;
+}
